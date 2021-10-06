@@ -7,6 +7,8 @@ Created on Mon Oct  4 16:40:42 2021
 
 import os
 
-os.environ["SENDGRID_API_KEY"]="Acá va su API KEY de SENDGRID y no puede subirla a GITHUB"
+os.environ["SENDGRID_API_KEY"]="Acá debe ir el código de sendgrid"
 os.environ["SECURITY_HASH"]="ABC123"
 os.environ["email_from"]="jeferson.arango@ucaldas.edu.co"
+os.environ["TWILIO_ACCOUNT_SID"]="Acá debe ir el SID de twilio"
+os.environ["TWILIO_AUTH_TOKEN"]="Acá debe ir el Token de Twilio"
